@@ -1,87 +1,41 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.2">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MeMo - 语音智能提醒 App</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 40px;
+            background: #f7f7f7;
+            color: #333;
+            text-align: center;
+        }
+        h1 { color: #1c9ebc; font-size: 36px; margin-bottom: 10px; }
+        p { font-size: 18px; margin-bottom: 30px; }
+        .container { max-width: 600px; margin: auto; }
+        .btn {
+            display: inline-block;
+            background: #1c9ebc;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        img { max-width: 100%; border-radius: 20px; margin-bottom: 30px; }
+    </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="zh"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1">&lt;title&gt;MeMo – AI 语音智能提醒助手&lt;/title&gt;</p>
-<p class="p1">&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>max-width: 900px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>margin: 0 auto;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>padding: 30px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>line-height: 1.7;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>h1 {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>color: #0a7cff;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>.screenshots img {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>width: 28%;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>margin-right: 2%;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 12px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>border: 1px solid #ddd;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>.footer {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>margin-top: 40px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-size: 14px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>color: #666;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1">&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;h1&gt;MeMo – AI 语音智能任务助手&lt;/h1&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;p&gt;</p>
-<p class="p1">MeMo 是一款轻量级 AI 个人助理应用，支持语音输入、自动解析自然语言语义，并智能创建日程任务。</p>
-<p class="p1">适用于希望提高效率、减少手动输入的个人用户。</p>
-<p class="p1">&lt;/p&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;h2&gt;主要功能&lt;/h2&gt;</p>
-<p class="p1">&lt;ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;li&gt;长按语音按钮即可识别语音内容&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;li&gt;AI 自动从语句中提取任务标题、时间、重复规则&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;li&gt;支持自然语言，如“明天上午 9 点开会”“每天 8 点吃药”&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;li&gt;支持“5 分钟后提醒我吃饭”等即时提醒&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;li&gt;任务支持微信分享&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;li&gt;本地通知提醒与重复任务管理&lt;/li&gt;</p>
-<p class="p1">&lt;/ul&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;h2&gt;应用截图&lt;/h2&gt;</p>
-<p class="p1">&lt;div class="screenshots"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;img src="screenshot1.png" alt="Home Screenshot"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;img src="screenshot2.png" alt="Voice Input Screenshot"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;img src="screenshot3.png" alt="Create Task Screenshot"&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;p&gt;（以上截图可用随便的占位图，后续可换成 MeMo 真机显示截图）&lt;/p&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;h2&gt;关于开发者&lt;/h2&gt;</p>
-<p class="p1">&lt;p&gt;</p>
-<p class="p1">开发者：Stefan（个人开发者）&lt;br&gt;</p>
-<p class="p1">联系方式：&lt;b&gt;your-email@example.com&lt;/b&gt;&lt;br&gt;</p>
-<p class="p1">应用图标及介绍请与微信开放平台填写内容保持一致。</p>
-<p class="p1">&lt;/p&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;div class="footer"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>© 2025 MeMo App. All Rights Reserved.</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+    <div class="container">
+        <h1>MeMo</h1>
+        <p>一个能听懂你语音、自动创建任务提醒的智能 App。</p>
+        
+        <img src="screenshot.png" alt="MeMo App Preview" />
+
+        <a class="btn" href="#">即将上架 App Store</a>
+    </div>
 </body>
 </html>
